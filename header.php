@@ -2,7 +2,7 @@
 <html dir="ltr" lang="ja">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
 <title><?php bloginfo('name'); ?></title>
 <link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/images/touch-icon.png" />
 <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" />
@@ -15,7 +15,22 @@
 <![endif]-->
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.12.3.min.js"></script>
 <script src="//cdn.jsdelivr.net/jquery.sidr/2.2.1/jquery.sidr.min.js"></script>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-4214907421149333",
+    enable_page_level_ads: true
+  });
+</script>
 <?php wp_head(); ?>
+<!-- i-mobile for SmartPhone client script -->
+	<script type="text/javascript">
+		imobile_tag_ver = "0.3"; 
+		imobile_pid = "48072"; 
+		imobile_asid = "928487"; 
+		imobile_type = "overlay";
+	</script>
+	<script type="text/javascript" src="http://spad.i-mobile.co.jp/script/adssp.js?20110215"></script>
 </head>
 <body class="">
 	<header>
@@ -59,7 +74,7 @@
     <ul>
         <li><a href="/archives/category/guide">攻略記事</a></li>
         <li><a href="/archives/category/beginner">初心者向け</a></li>
-        <li><a href="/forums/forum/question">質問コーナー</a></li>
+        <li><a href="/forums/forum/question" rel="nofollow" >質問コーナー</a></li>
         <li><a href="/family">ファミリー紹介</a></li>
         <li><a class="slide-menu" href="#sidr">閉じる</a></li>
     </ul>

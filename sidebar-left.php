@@ -6,8 +6,8 @@
                     	<h2 class="title">メニュー</h2>
                         <div class="content-menu">
                             <h3><a href="#">
-                            	<img src="<?php echo get_template_directory_uri(); ?>/images/sougousagi_b.png" alt="総合詐欺師の館"/></a></h3>
-                            <h3><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/tekinomeiwaku_b.png" alt="敵の迷惑攻撃集"/></a></h3>
+                            	<img src="<?php echo get_template_directory_uri(); ?>/images/sougousagi_k.png" alt="総合詐欺師の館"/></a></h3>
+                            <h3><a href="http://logres.mintafamily.com/archives/1793/"><img src="<?php echo get_template_directory_uri(); ?>/images/tekinomeiwaku_k.png" alt="敵の迷惑攻撃集"/></a></h3>
                         </div>
                     </div>
                 	<div class="content-wrap">
